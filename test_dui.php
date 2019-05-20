@@ -3,8 +3,9 @@
 // Takes a character like 'a'
 // And an alphabet array('A', 'B', 'C',...,'Z')
 // And a direction -1 = backward & 1 = forward
-// returns an array like this (Forward from A):
-// array(1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1);
+// returns an array like this:
+// (Forward from A): array(1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1);
+// (Backward from Z) array(-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1);
 function BuildInputArray($char, $alphabet, $direction){
     $char = array_search(strtoupper($char), $alphabet); // find char in array
     $input = '';
