@@ -25,6 +25,6 @@ if ($ann) {
 		echo 'dui.net saved. run: php test_dui.php' . PHP_EOL;
 	}
 	
-	// Destron ANN
+	// Destroy ANN
 	fann_destroy($ann);
 }
