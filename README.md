@@ -4,7 +4,7 @@ After watching a video of a field sobriety test I knew I had to build a neural n
 
 [Read Me](https://geekgirljoy.wordpress.com/2019/05/22/dui-bot/)
 
-## Design Considerations
+## Design Considerations:
 
    * It should be able to go forward or backward through the alphabet depending on request.
    * It should be able to arbitrarily start and stop at any requested letter combination, i.e A-Z or F-B, etc…
@@ -28,7 +28,7 @@ All the remaining input neurons are a group and represent A – Z and only one l
 
 ![DUI ANN](https://github.com/geekgirljoy/DUIBot/blob/master/DUIANN.jpg)
 
-## Results
+## Results:
 
 As you can see, DUI Bot can pass the “non-song-and-dance” portion of a sobriety test! 😛
 
